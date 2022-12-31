@@ -1,8 +1,21 @@
+import React from "react";
+
+// useState - basics
+import UseStatePracticeApp from "./Components/UseStatePracticeApp";
+
+
+// toggle
+import ToggleDataApp from "./Components/ToggleDataApp";
+
 
 function App() {
+
   return (
     <div className="App">
-      <p>React Boilerplate!</p>
+      <UseStatePracticeApp />
+
+      <ToggleDataApp />
+      
     </div>
   );
 }
